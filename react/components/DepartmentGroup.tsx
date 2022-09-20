@@ -35,7 +35,7 @@ const DepartmentGroup = ({ departments, handleSetSlug}: Props) => {
     onChange={onHandleSetSlug}
     defaultValue="value0"
     >
-        <option disabled value='value0'>Seleccione una opción</option>
+        <option disabled value='value0'>Busqueda por departamento</option>
         {departmentOptions}
     </select>
 

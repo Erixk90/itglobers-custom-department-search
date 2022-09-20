@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { useQuery } from "react-apollo";
 import QUERY_VALUE from '../graphql/getDepartmentGroup.graphql'
 import DepartmentGroup from "./DepartmentGroup";
 
-import { SearchBar } from "vtex.store-components";
+import { SearchBar } from 'vtex.store-components';
 
 
 const DepartmentSearch = () => {
