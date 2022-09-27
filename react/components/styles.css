@@ -1,0 +1,14 @@
+.select__container{
+    border: none ;
+    background-color: var(--buttons-descriptions);
+    color: #fff;
+    height: 30px;
+    width: 300px;
+}
+
+
+.search__container{
+    border: 1px var(--borders-buttons) solid;
+
+
+}

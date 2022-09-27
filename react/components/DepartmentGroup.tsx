@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './styles.css'
 
 type Props = {
     departments: [Category],
@@ -32,10 +33,11 @@ const DepartmentGroup = ({ departments, handleSetSlug}: Props) => {
    return(
 
     <select
+    className={styles.select__container}
     onChange={onHandleSetSlug}
     defaultValue="value0"
     >
-        <option disabled value='value0'>Busqueda por departamento</option>
+        <option disabled value='value0' className={styles.search__container}>Busqueda por departamento</option>
         {departmentOptions}
     </select>
 
